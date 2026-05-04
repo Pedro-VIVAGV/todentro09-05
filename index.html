@@ -181,7 +181,22 @@
     box-shadow: 0 8px 40px rgba(0,156,59,0.5);
     transition: transform 0.2s, box-shadow 0.2s;
   }
-  .btn-primary:hover { transform: translateY(-3px) scale(1.02); box-shadow: 0 14px 50px rgba(0,156,59,0.7); }
+  
+  .btn-outline {
+    display: inline-flex; align-items: center; justify-content: center;
+    background: transparent;
+    color: var(--cor-texto);
+    text-decoration: none;
+    padding: 12px 24px; border-radius: 40px;
+    border: 2px solid var(--cor-texto);
+    font-weight: 700; font-size: 0.85rem; letter-spacing: 1px; text-transform: uppercase;
+    transition: all 0.2s;
+  }
+  .btn-outline:hover {
+    background: var(--cor-texto);
+    color: var(--cor-bg);
+  }
+.btn-primary:hover { transform: translateY(-3px) scale(1.02); box-shadow: 0 14px 50px rgba(0,156,59,0.7); }
   .btn-primary svg { width: 20px; height: 20px; }
   .btn-secondary {
     display: inline-flex; align-items: center; gap: 8px;
@@ -1043,6 +1058,18 @@
           <button class="carousel-dot active" onclick="goToSlide(0)"></button><button class="carousel-dot" onclick="goToSlide(1)"></button><button class="carousel-dot" onclick="goToSlide(2)"></button><button class="carousel-dot" onclick="goToSlide(3)"></button><button class="carousel-dot" onclick="goToSlide(4)"></button><button class="carousel-dot" onclick="goToSlide(5)"></button><button class="carousel-dot" onclick="goToSlide(6)"></button><button class="carousel-dot" onclick="goToSlide(7)"></button><button class="carousel-dot" onclick="goToSlide(8)"></button><button class="carousel-dot" onclick="goToSlide(9)"></button><button class="carousel-dot" onclick="goToSlide(10)"></button><button class="carousel-dot" onclick="goToSlide(11)"></button><button class="carousel-dot" onclick="goToSlide(12)"></button><button class="carousel-dot" onclick="goToSlide(13)"></button><button class="carousel-dot" onclick="goToSlide(14)"></button><button class="carousel-dot" onclick="goToSlide(15)"></button><button class="carousel-dot" onclick="goToSlide(16)"></button><button class="carousel-dot" onclick="goToSlide(17)"></button><button class="carousel-dot" onclick="goToSlide(18)"></button><button class="carousel-dot" onclick="goToSlide(19)"></button><button class="carousel-dot" onclick="goToSlide(20)"></button><button class="carousel-dot" onclick="goToSlide(21)"></button><button class="carousel-dot" onclick="goToSlide(22)"></button><button class="carousel-dot" onclick="goToSlide(23)"></button><button class="carousel-dot" onclick="goToSlide(24)"></button><button class="carousel-dot" onclick="goToSlide(25)"></button><button class="carousel-dot" onclick="goToSlide(26)"></button><button class="carousel-dot" onclick="goToSlide(27)"></button><button class="carousel-dot" onclick="goToSlide(28)"></button><button class="carousel-dot" onclick="goToSlide(29)"></button><button class="carousel-dot" onclick="goToSlide(30)"></button><button class="carousel-dot" onclick="goToSlide(31)"></button>
         </div>
       </div>
+        <div style="margin-top: 50px; text-align: center;">
+          <h3 style="color: var(--cor-texto); font-size: 1.2rem; margin-bottom: 20px; font-weight: 800; text-transform: uppercase; letter-spacing: 1px;">Acesse os Álbuns Completos</h3>
+          <div class="past-events-links" style="display: flex; flex-wrap: wrap; gap: 15px; justify-content: center;">
+            <a href="https://drive.google.com/drive/folders/1Jv61_Xbz415UNdoNXbHFz2b_kQ-ZObWE?usp=sharing" target="_blank" class="btn-outline">To Dentro - GV 26/10/2024</a>
+            <a href="https://drive.google.com/drive/folders/1t0uHNo4-Cbkst5v9sZIgkHi51U2nvl88?usp=sharing" target="_blank" class="btn-outline">To Dentro - Teófilo Otoni 08/02/2025</a>
+            <a href="https://drive.google.com/drive/folders/1Erac__M8D4V093vJipHTSVaq6wqwNAJ6?usp=sharing" target="_blank" class="btn-outline">To Dentro da Vibezinha - GV 15/02/2025</a>
+            <a href="https://drive.google.com/drive/folders/1fORtHsUzuTfivzCCpbLeBIri-q082WaK?usp=sharing" target="_blank" class="btn-outline">To Dentro da CIU - GV 24/04/2025</a>
+            <a href="https://drive.google.com/drive/folders/111c4R1dFqDEnOoDxIJU6ATGMfYGq5pnv?usp=sharing" target="_blank" class="btn-outline">To Dentro - GV 09/08/2025</a>
+            <a href="https://drive.google.com/drive/folders/1D8ITPaQ_mX1rP6IKut68zsDuWsRCBVLt?usp=sharing" target="_blank" class="btn-outline">To Dentro - GV 13/03/2026</a>
+          </div>
+        </div>
+
     </section>
 
     <section id="ingressos">
